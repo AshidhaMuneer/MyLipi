@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    width: 100%;
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+width: 1500px; 
+height: 75px;
+margin:auto ;
+}
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+img{
+     width: 150px;
+    }
+
+
+.menu{
+    
+    width: 400px;
+    height: 70px;
+    float: right;
+}
+ul{
+    text-align: right;
+    display: flex;
+    justify-content: right;
+
+}
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+    
+
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    
+
+}
+ul li a:hover
+{
+    color: red;
+}
+.text{
+    justify-content: center;
+    margin-top: 100px;
+    font-family:sans-serif;
+    vertical-align: baseline;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font: 100;
+    
+}
+
+.mainimg img{
+    margin-top: 130px;
+    margin-left: 150px;
+    width: 1300px;
+    float: left;
+        border-bottom: 1px solid #979797;
+    margin-bottom: 50px;
+}
+.lang{
+    
+    
+    padding: 30px 0;
+    text-align: center;
+
+    border-bottom: 1px solid #979797;
+    
+}
+.lang a {
+
+    background: #f2f2f2;
+    border-radius: 19px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+    color: #173945;
+    width: 44%;
+    max-width: 150px;
+    display: inline-block;
+    padding: 0;
+    margin: 10px 20px;
+}
+a {
+    text-decoration: none;
+    transition: color 100ms linear;
+    cursor: pointer;
+}
+
+.lang a span{
+    
+    display: block;
+    float: left;
+    padding: 0 10px;
+}
+.lang a span.letter{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 50px;
+    padding: 0;
+    background: #106973;
+    color: #fbfbfd;
+    font-size: 18px;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+}
+section {
+    display: block;
+    margin-top: 184px;
+}
+section.features {
+    background: #f2f2f2;
+    padding: 80px 0 50px;
+    text-align: center;
+}
+section .features img{
+    
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    
+}
+section.features .featuresec {
+    width: 30%;
+    max-width: 350px;
+    margin-right: 4%;
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+    box-sizing: border-box;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.ftext p{
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 70px;
+    font-size: 17px;
+    line-height: 24px;
+    min-height: 170px;
+}
+.slidetails h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    display: block;
+    margin-right: 200px;
+}
+.slidetails p {
+    font-size: 18px;
+    line-height: 24px;
+    display: block;
+
+}
+ .sliimage img{
+    height: 550px;
+    width: 330px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    
+}
+
+.slider1 .slidetails{
+float: right;
+margin-top: 150px;
+margin-bottom: 100px;
+margin-left: 200px;
+}
+.slider2 .slidetails{
+    float: right;
+    margin-left: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.slider3 .slidetails{
+    float: right;
+    margin-left: 200px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.download-app{
+    text-align: center;
+    display: block;
+    margin-bottom: 25px;
+    padding: 0;
+    border: 0;
+}
+.cimg img{
+    width: 90%;
+    margin-top: 15px;
+    background-color: white;
+}
+.contain h3{
+    margin-bottom: 15px;
+}
+footer{
+    padding: 50px 0;
+    background: #fbfbfd;
+    clear: both;
+    display: block;
+    line-height: 20px;
+}
+footer .map{
+    
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+footer .info{
+    text-align: center;
+    width: 49%;
+    line-height: 19px;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 100px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer .info .address{
+    font-size: 14px;
+    line-height: 19px;
+    margin: 20px 0;
+    text-align: left;
+}
+footer .info .name{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    
+}
+footer .info .contact{
+    text-align: left;
+
+}
+footer .follow {
+    float: right;
+    
+}
+
+footer .map img{
+    width: 480px;
+    max-width: 100%;
+}
+footer .copyright{
+    text-align: center;
+}
+
+.policy{
+    background-color: #191919;
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 20px;
+    color: #fefefe;
+}
+.policy a{
+    color: #fefefe;
+}
+.policy a:hover
+{
+    color: red;
+}
